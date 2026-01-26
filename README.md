@@ -1,2 +1,2 @@
-# Homelab-notes-
+# Homelab-docs-
 Homelab server progress
