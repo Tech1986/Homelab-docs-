@@ -1,0 +1,11 @@
+This is my first push to Github from the terminal.
+
+
+
+
+
+Homelab setup:
+	- Proxmox host (homelab)
+	- Debian server VM
+		-Practice LVM, partitioning and RHCSA prep
+	- Jellyfin lxc, Samba lxc
