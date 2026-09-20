@@ -19,7 +19,7 @@ A hands-on Active Directory homelab built in VirtualBox for practicing AD admini
 
 ## 1. VM & Network Setup
 
-- Rebuilt the VM from scratch after losing the admin password on a prior build.
+- Setup new VM from scratch allocating appropriate resources
 - Diagnosed a host freeze caused by over-allocating RAM (4GB on an 8GB host); dropped to 2GB and confirmed stability (idle CPU/memory behavior) before proceeding.
 - Configured a **static IP** before promoting to a DC — AD DS depends heavily on stable DNS, and a DHCP-leased DC risks breaking domain resolution if its address changes.
 - Chose an IP (`192.168.0.80`) confirmed to sit outside the router's DHCP range to avoid future collisions.
